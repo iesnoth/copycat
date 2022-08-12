@@ -5,16 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3b1eb3182d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Tumblr Copycat</title>
 </head>
 
 <body>
     <!-- Header with a search bar in top left and nav bar on right -->
     <header>
-        <div class="search">search bar and logo</div>
-        <div>
-            <nav>6 icons</nav>
+        <div class="search">
+            <img src="assets/Untitled.png" alt="tumblr logo">
+            <input type="text" name="search" placeholder="Search Tumblr">
+        </div>
+        <div class="header-nav">
+            <nav><i class="fa-brands fa-angellist"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <i class="fa-solid fa-bacteria"></i>
+                <i class="fa-solid fa-dumpster-fire"></i>
+            </nav>
         </div>
     </header>
     <!-- the site has 2 columns,
@@ -25,83 +33,167 @@ and a menu and ads on the right -->
 Main column
 *********************************************** -->
     <!-- Icon and nav with 7 icons -->
-    <div>
-        <img>
-        <nav></nav>
-    </div>
-    <!-- 3 tabs to switch out main content -->
-    <div>
-        <link>
-        <link>
-        <link>
-    </div>
-    <!-- Recommended 
+    <div class="container">
+    <main class="main column">
+        <div>
+            <img src="assets/placeimg_50_50_nature.jpg" alt="user icon">
+            <nav class="submit-nav">
+                <i class="fa-solid fa-face-grin-squint-tears"></i>
+                <i class="fa-brands fa-fort-awesome"></i>
+                <i class="fa-solid fa-glasses"></i>
+                <i class="fa-solid fa-hands-holding-child"></i>
+                <i class="fa-solid fa-jedi"></i>
+                <i class="fa-brands fa-octopus-deploy"></i>
+                <i class="fa-solid fa-pizza-slice"></i>
+            </nav>
+        </div>
+        <!-- 3 tabs to switch out main content -->
+        <div>
+            <a href="">Following</a>
+            <a href="">For you</a>
+            <a href="">Manage</a>
+        </div>
+        <!-- Recommended 
     this has a scrolling element to it-->
-    <div>
-        <h2></h2>
-        <img>
-        <img>
-        <img>
-    </div>
-    <!-- main content div
+        <div>
+            <h3>You'll wish we recommended these before</h3>
+            <section>
+                <img src="assets/placeimg_120_50_animals.jpg" alt="dolphins">
+                <img src="assets/placeimg_120_50_arch.jpg" alt="building">
+                <img src="assets\placeimg_120_50_people.jpg" alt="lady">
+            </section>
+        </div>
+        <!-- main content div
 includes an icon to the side WHICH IS STICKY
 a username above the content
 the content
 description
 tags -->
-    <main>
-        <div class="main-content">
-            <!-- icon img is STICKY and goes on outside, follows only to the end of the div -->
-            <img>
-            <header>username</header>
-            <section><img>
-            </section>
-            <footer>
-                <p>tags</p>
-                <p>notes on left, 4 icons on right</p>
-            </footer>
-        </div>
-        <!-- REPEAT -->
-        <div class="main-content">
-            <!-- icon img is STICKY and goes on outside, follows only to the end of the div -->
-            <img>
-            <header>username</header>
-            <section><img>
-                <p></p>
-            </section>
-            <footer>
-                <p>tags</p>
-                <p>notes on left, 4 icons on right</p>
-            </footer>
-        </div>
 
-        <!-- AD
+        <main>
+            <div class="main-content">
+                <!-- icon img is STICKY and goes on outside, follows only to the end of the div -->
+                <img src="assets\placeimg_50_50_nature.jpg" alt="icon">
+                <header>username</header>
+                <section>
+                    <img src="http://placekitten.com/200/300" alt="kitty">
+                    <p>description</p>
+                </section>
+                <footer>
+                    <p>tags</p>
+                    <div>
+                        <p>300k notes</p>
+                        <i class="fa-solid fa-hands-holding-child"></i>
+                        <i class="fa-solid fa-jedi"></i>
+                        <i class="fa-brands fa-octopus-deploy"></i>
+                        <i class="fa-solid fa-pizza-slice"></i>
+                    </div>
+                </footer>
+            </div>
+            <!-- REPEAT -->
+            <div class="main-content">
+                <!-- icon img is STICKY and goes on outside, follows only to the end of the div -->
+                <img src="assets\placeimg_50_50_nature.jpg" alt="icon">
+                <header>username</header>
+                <section>
+                    <img src="http://placekitten.com/200/300" alt="kitty">
+                    <p>description</p>
+                </section>
+                <footer>
+                    <p>tags</p>
+                    <div>
+                        <p>300k notes</p>
+                        <i class="fa-solid fa-hands-holding-child"></i>
+                        <i class="fa-solid fa-jedi"></i>
+                        <i class="fa-brands fa-octopus-deploy"></i>
+                        <i class="fa-solid fa-pizza-slice"></i>
+                    </div>
+                </footer>
+            </div>
+
+            <!-- AD
 has a button instead of a description, otherwise looks like main content -->
-<div class="main-content">
-    <!-- icon img is STICKY and goes on outside, follows only to the end of the div -->
-    <img>
-    <header>username</header>
-    <section><img>
-        <button>CLICK ME</button>
-    </section>
-    <footer>
-        <p>tags</p>
-        <p>notes on left, 4 icons on right</p>
-    </footer>
-</div> 
+            <div class="main-content">
+                <!-- icon img is STICKY and goes on outside, follows only to the end of the div -->
+                <header>Sponsored</header>
+                <section>
+                    <img src="http://placekitten.com/200/300" alt="kitty">
+                    <p>description</p>
+                </section>
+                <footer>
+                    <p>tags</p>
+                    <div>
+                        <p>300k notes</p>
+                        <i class="fa-solid fa-hands-holding-child"></i>
+                        <i class="fa-solid fa-jedi"></i>
+                        <i class="fa-brands fa-octopus-deploy"></i>
+                        <i class="fa-solid fa-pizza-slice"></i>
+                    </div>
+                </footer>
+            </div>
+        </main>
     </main>
     <!-- ***********************************************
 Side column
 *********************************************** -->
     <!-- Check out these blogs
 4 icons with usernames -->
-    <!-- Radar
+    <aside class="side-column">
+        <div id="blogs">
+            <h4>Check out these blogs!</h4>
+            <div>
+                <img src="assets\placeimg_50_50_animals.jpg" alt="cat icon" name="cat">
+                <label for="cat">username</label>
+                <a href="">Follow</a>
+            </div>
+            <div>
+                <img src="assets\placeimg_50_50_animals.jpg" alt="cat icon" name="cat">
+                <label for="cat">username</label>
+                <a href="">Follow</a>
+            </div>
+            <div>
+                <img src="assets\placeimg_50_50_animals.jpg" alt="cat icon" name="cat">
+                <label for="cat">username</label>
+                <a href="">Follow</a>
+            </div>
+            <div>
+                <img src="assets\placeimg_50_50_animals.jpg" alt="cat icon" name="cat">
+                <label for="cat">username</label>
+                <a href="">Follow</a>
+            </div>
+        </div>
+
+
+        <!-- Radar
 has a main content post, but smaller -->
-    <!-- Sponsored -->
-    <!-- AD -->
+        <div>
 
-    <!-- HAS A FOOTER -->
+            <header><img src="assets\placeimg_50_50_nature.jpg" alt="icon">username</header>
+            <section>
+                <img src="http://placekitten.com/200/300" alt="kitty">
+                <p>description</p>
+            </section>
+            <footer>
+                <p>tags</p>
+                <div>
+                    <p>300k notes</p>
+                    <i class="fa-solid fa-hands-holding-child"></i>
+                    <i class="fa-solid fa-jedi"></i>
+                    <i class="fa-brands fa-octopus-deploy"></i>
+                    <i class="fa-solid fa-pizza-slice"></i>
+                </div>
+            </footer>
+        </div>
+        <!-- Sponsored -->
+        <div>
+            <h4>Sponsor</h4>
+            <img src="assets\placeimg_300_600_any.jpg" alt="film cemetery">
+            <p>Wanna go ad free?</p>
+            <footer> About Apps Legal Privacy</footer>
+        </div>
 
+    </aside>
+</div>
 </body>
 
 </html>

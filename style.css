@@ -1,0 +1,49 @@
+*{
+    border:2px solid lightblue;
+    color:aliceblue;
+}
+
+body{
+   background-color: rgb(33, 54, 91);
+   font-family:sans-serif;
+}
+
+/* HEADER CODE */
+header{
+    margin:auto;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+/* Search bar */
+
+.search img{
+    width:20px;
+
+}
+
+.search input{
+    color:grey;
+}
+
+/* CONTAINER */
+
+.container{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+/* MAIN COLUMN */
+
+.main-column{
+    width:60%;
+}
+
+/* SIDE COLUMN */
+
+.side-column{
+    width:40%;
+    flex-shrink: 1;
+}
