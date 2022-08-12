@@ -3,9 +3,20 @@
     color:aliceblue;
 }
 
+/* BASIC */
+
 body{
    background-color: rgb(33, 54, 91);
    font-family:sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size:20px;
+}
+
+h3{
+    font-size: 20px;
 }
 
 /* HEADER CODE */
@@ -43,8 +54,36 @@ header{
 
 /* submit bar */
 .submit-bar{
-    display:inline;
+    display:flex;
     width:100%;
+    justify-content: space-around;
+}
+
+/* Following and recommended rows */
+
+.tabs
+{
+    text-align: center;
+}
+
+.recommended section{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Blog content */
+
+.main-content header{
+    font-size: 17px;
+}
+
+.box{
+    background-color: aliceblue;
+}
+
+.main-content p{
+    font-size: 17px;
+    color:black;
 }
 
 /* SIDE COLUMN */
