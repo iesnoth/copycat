@@ -41,6 +41,12 @@ header{
     width:60%;
 }
 
+/* submit bar */
+.submit-bar{
+    display:inline;
+    width:100%;
+}
+
 /* SIDE COLUMN */
 
 .side-column{
