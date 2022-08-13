@@ -33,6 +33,10 @@ header{
     justify-content: space-between;
 }
 
+hr{
+    border:2px solid rgb(68, 109, 135);
+}
+
 /* Search bar */
 
 .search img{
@@ -59,7 +63,6 @@ header{
 
 .container main{
     width:1000px;
-    height:4000px;
     display:flex;
     flex-direction: column;
 }
@@ -80,8 +83,9 @@ header{
     display: flex;
     justify-content: space-around;
     width:850px;
-    margin:5px;
+    padding:10px;
     background-color: aliceblue;
+    
 }
 
 /* Following and recommended rows */
@@ -89,6 +93,11 @@ header{
 .tabs
 {
     text-align: center;
+    margin-top:20px;
+}
+
+.tabs a{
+    padding:10px;
 }
 
 .recommended section{
@@ -110,6 +119,7 @@ header{
     width:100px;
     height:100px;
     margin-right:25px;
+    position:sticky;
 }
 
 .blogs{
@@ -122,19 +132,31 @@ header{
 .box{
     background-color: aliceblue;
     padding:20px 0px;
+    border-radius:15px;
 }
 
 .box header{
     color:black;
 }
 
+.box p{
+    margin:0px 20px;
+}
+
 .box footer >*{
-    padding:0px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:0px 20px;
 }
 
 .main-content p{
     font-size: 25px;
     color:black;
+}
+
+#ad{
+    margin-left:125px;
 }
 
 /* SIDE COLUMN */
