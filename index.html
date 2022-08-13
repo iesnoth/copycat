@@ -74,7 +74,6 @@ tags -->
 
             <div class="blogs">
                 <div class="main-content">
-                    <!-- icon img is STICKY and goes on outside, follows only to the end of the div -->
                     <img class="icon" src="assets\placeimg_50_50_nature.jpg" alt="icon">
                     <div class="box">
                         <header>username</header>
@@ -97,7 +96,6 @@ tags -->
                 </div>
                 <!-- TWO -->
                 <div class="main-content">
-                    <!-- icon img is STICKY and goes on outside, follows only to the end of the div -->
                     <img class="icon" src="assets\placeimg_50_50_nature.jpg" alt="icon">
                     <div class="box">
                         <header>username</header>
@@ -120,7 +118,6 @@ tags -->
                 </div>
                 <!-- THREE -->
                 <div class="main-content">
-                    <!-- icon img is STICKY and goes on outside, follows only to the end of the div -->
                     <img class="icon" src="assets\placeimg_50_50_nature.jpg" alt="icon">
                     <div class="box">
                         <header>username</header>
@@ -175,6 +172,7 @@ Side column
         <aside class="side-column">
             <div id="blogs">
                 <h4>Check out these blogs!</h4>
+                <hr>
                 <div>
                     <img src="assets\placeimg_50_50_animals.jpg" alt="cat icon" name="cat">
                     <label for="cat">username</label>
@@ -200,28 +198,31 @@ Side column
 
             <!-- Radar
 has a main content post, but smaller -->
+<div id="radar"class="main-content">
+    <h4 >Radar</h4>
+    <div class="box">
+        <header class="radar-header"><img src="assets\placeimg_50_50_animals.jpg" alt="cat icon" name="cat"><p>username</p></header>
+        <section>
+            <img src="http://placekitten.com/400/600" alt="kitty">
+            <p>description</p>
+        </section>
+        <footer>
+            <p>tags</p>
             <div>
-
-                <header><img src="assets\placeimg_50_50_nature.jpg" alt="icon">username</header>
-                <section>
-                    <img src="http://placekitten.com/200/300" alt="kitty">
-                    <p>description</p>
-                </section>
-                <footer>
-                    <p>tags</p>
-                    <div>
-                        <p>300k notes</p>
-                        <i class="fa-solid fa-hands-holding-child"></i>
-                        <i class="fa-solid fa-jedi"></i>
-                        <i class="fa-brands fa-octopus-deploy"></i>
-                        <i class="fa-solid fa-pizza-slice"></i>
-                    </div>
-                </footer>
+                <p>300k notes</p>
+                <div><i class="fa-solid fa-hands-holding-child" style="color:black"></i>
+                    <i class="fa-solid fa-jedi" style="color:black"></i>
+                    <i class="fa-brands fa-octopus-deploy" style="color:black"></i>
+                    <i class="fa-solid fa-pizza-slice" style="color:black"></i>
+                </div>
             </div>
+        </footer>
+    </div>
+</div>
             <!-- Sponsored -->
             <div>
                 <h4>Sponsor</h4>
-                <img src="assets\placeimg_300_600_any.jpg" alt="film cemetery">
+                <img id="film" src="assets\placeimg_300_600_any.jpg" alt="film cemetery">
                 <p>Wanna go ad free?</p>
                 <footer> About Apps Legal Privacy</footer>
             </div>
