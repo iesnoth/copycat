@@ -17,13 +17,13 @@
             <img src="assets/Untitled.png" alt="tumblr logo">
             <input type="text" name="search" placeholder="Search Tumblr">
         </div>
-        <div class="header-nav">
-            <nav><i class="fa-brands fa-angellist"></i>
-                <i class="fa-solid fa-bag-shopping"></i>
-                <i class="fa-solid fa-bacteria"></i>
-                <i class="fa-solid fa-dumpster-fire"></i>
-            </nav>
-        </div>
+
+        <nav class="header-nav"><i class="fa-brands fa-angellist fa-2x"></i>
+            <i class="fa-solid fa-bag-shopping fa-2x"></i>
+            <i class="fa-solid fa-bacteria fa-2x"></i>
+            <i class="fa-solid fa-dumpster-fire fa-2x"></i>
+        </nav>
+
     </header>
     <!-- the site has 2 columns,
     main content on the left
@@ -36,15 +36,16 @@ Main column
     <div class="container">
         <main class="main column">
             <div class="submit-bar">
-                <img src="assets/placeimg_50_50_nature.jpg" alt="user icon">
+                <img class="icon" src="assets/placeimg_50_50_nature.jpg" alt="user icon">
                 <nav class="submit-nav">
-                    <i class="fa-solid fa-face-grin-squint-tears fa-2x"></i>
-                    <i class="fa-brands fa-fort-awesome fa-2x"></i>
-                    <i class="fa-solid fa-glasses fa-2x"></i>
-                    <i class="fa-solid fa-hands-holding-child fa-2x"></i>
-                    <i class="fa-solid fa-jedi fa-2x"></i>
-                    <i class="fa-brands fa-octopus-deploy fa-2x"></i>
-                    <i class="fa-solid fa-pizza-slice fa-2x"></i>
+
+                    <i class="fa-solid fa-face-grin-squint-tears fa-3x" style="color:red"></i>
+                    <i class="fa-brands fa-fort-awesome fa-3x" style="color:orange"></i>
+                    <i class="fa-solid fa-glasses fa-3x" style="color:yellow"></i>
+                    <i class="fa-solid fa-hands-holding-child fa-3x"  style="color:green"></i>
+                    <i class="fa-solid fa-jedi fa-3x" style="color:lightskyblue"></i>
+                    <i class="fa-brands fa-octopus-deploy fa-3x"  style="color:purple"></i>
+                    <i class="fa-solid fa-pizza-slice fa-3x"  style="color:hotpink"></i>
                 </nav>
             </div>
             <!-- 3 tabs to switch out main content -->
@@ -70,14 +71,39 @@ the content
 description
 tags -->
 
-            <main>
+            <div class="blogs">
                 <div class="main-content">
                     <!-- icon img is STICKY and goes on outside, follows only to the end of the div -->
-                    <img src="assets\placeimg_50_50_nature.jpg" alt="icon">
+                    <img class="icon" src="assets\placeimg_50_50_nature.jpg" alt="icon">
                     <div class="box">
                         <header>username</header>
                         <section>
-                            <img src="http://placekitten.com/200/300" alt="kitty">
+                            <img src="http://placekitten.com/800/900" alt="kitty">
+                            <p>description</p>
+                        </section>
+                        <footer>
+                            <p>tags</p>
+                            <div>
+                                <p>300k notes</p>
+                                <i class="fa-solid fa-hands-holding-child"  style="color:black"></i>
+                                <i class="fa-solid fa-jedi"style="color:black"></i>
+                                <i class="fa-brands fa-octopus-deploy"style="color:black"></i>
+                                <i class="fa-solid fa-pizza-slice"style="color:black"></i>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <!-- REPEAT -->
+           
+
+                <!-- AD
+has a button instead of a description, otherwise looks like main content -->
+                <div class="main-content">
+                    <!-- icon img is STICKY and goes on outside, follows only to the end of the div -->
+                    <div class="box">
+                        <header>Sponsored</header>
+                        <section>
+                            <img src="http://placekitten.com/800/800" alt="kitty">
                             <p>description</p>
                         </section>
                         <footer>
@@ -91,51 +117,8 @@ tags -->
                             </div>
                         </footer>
                     </div>
-                    <!-- REPEAT -->
-                    <div class="main-content">
-                        <!-- icon img is STICKY and goes on outside, follows only to the end of the div -->
-                        <img src="assets\placeimg_50_50_nature.jpg" alt="icon">
-                        <div class="box">
-                            <header>username</header>
-                            <section>
-                                <img src="http://placekitten.com/200/300" alt="kitty">
-                                <p>description</p>
-                            </section>
-                            <footer>
-                                <p>tags</p>
-                                <div>
-                                    <p>300k notes</p>
-                                    <i class="fa-solid fa-hands-holding-child"></i>
-                                    <i class="fa-solid fa-jedi"></i>
-                                    <i class="fa-brands fa-octopus-deploy"></i>
-                                    <i class="fa-solid fa-pizza-slice"></i>
-                                </div>
-                            </footer>
-                        </div>
-
-                        <!-- AD
-has a button instead of a description, otherwise looks like main content -->
-                        <div class="main-content">
-                            <!-- icon img is STICKY and goes on outside, follows only to the end of the div -->
-                            <div class="box">
-                                <header>Sponsored</header>
-                                <section>
-                                    <img src="http://placekitten.com/200/300" alt="kitty">
-                                    <p>description</p>
-                                </section>
-                                <footer>
-                                    <p>tags</p>
-                                    <div>
-                                        <p>300k notes</p>
-                                        <i class="fa-solid fa-hands-holding-child"></i>
-                                        <i class="fa-solid fa-jedi"></i>
-                                        <i class="fa-brands fa-octopus-deploy"></i>
-                                        <i class="fa-solid fa-pizza-slice"></i>
-                                    </div>
-                                </footer>
-                            </div>
-                        </div>
-            </main>
+                </div>
+            </div>
         </main>
         <!-- ***********************************************
 Side column
